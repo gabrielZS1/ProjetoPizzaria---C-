@@ -54,7 +54,7 @@
             // 
             // txtPesquisar
             // 
-            this.txtPesquisar.Location = new System.Drawing.Point(926, 299);
+            this.txtPesquisar.Location = new System.Drawing.Point(607, 249);
             this.txtPesquisar.Name = "txtPesquisar";
             this.txtPesquisar.Size = new System.Drawing.Size(100, 20);
             this.txtPesquisar.TabIndex = 1;
@@ -72,15 +72,15 @@
             // dgvCardapio
             // 
             this.dgvCardapio.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvCardapio.Location = new System.Drawing.Point(179, 370);
+            this.dgvCardapio.Location = new System.Drawing.Point(135, 302);
             this.dgvCardapio.Name = "dgvCardapio";
-            this.dgvCardapio.Size = new System.Drawing.Size(945, 194);
+            this.dgvCardapio.Size = new System.Drawing.Size(701, 194);
             this.dgvCardapio.TabIndex = 4;
             // 
             // cnbTamanhoPizza
             // 
             this.cnbTamanhoPizza.FormattingEnabled = true;
-            this.cnbTamanhoPizza.Location = new System.Drawing.Point(214, 83);
+            this.cnbTamanhoPizza.Location = new System.Drawing.Point(124, 70);
             this.cnbTamanhoPizza.Name = "cnbTamanhoPizza";
             this.cnbTamanhoPizza.Size = new System.Drawing.Size(132, 21);
             this.cnbTamanhoPizza.TabIndex = 5;
@@ -88,9 +88,9 @@
             // 
             // btnNovo
             // 
-            this.btnNovo.Location = new System.Drawing.Point(322, 591);
+            this.btnNovo.Location = new System.Drawing.Point(179, 523);
             this.btnNovo.Name = "btnNovo";
-            this.btnNovo.Size = new System.Drawing.Size(84, 40);
+            this.btnNovo.Size = new System.Drawing.Size(97, 40);
             this.btnNovo.TabIndex = 6;
             this.btnNovo.Text = "NOVO";
             this.btnNovo.UseVisualStyleBackColor = true;
@@ -128,7 +128,7 @@
             // lblValor
             // 
             this.lblValor.AutoSize = true;
-            this.lblValor.Location = new System.Drawing.Point(867, 67);
+            this.lblValor.Location = new System.Drawing.Point(544, 78);
             this.lblValor.Name = "lblValor";
             this.lblValor.Size = new System.Drawing.Size(130, 13);
             this.lblValor.TabIndex = 17;
@@ -136,7 +136,7 @@
             // 
             // txtTamanho
             // 
-            this.txtTamanho.Location = new System.Drawing.Point(228, 57);
+            this.txtTamanho.Location = new System.Drawing.Point(135, 35);
             this.txtTamanho.Name = "txtTamanho";
             this.txtTamanho.Size = new System.Drawing.Size(100, 20);
             this.txtTamanho.TabIndex = 18;
@@ -144,7 +144,7 @@
             // lblValorDaPizza
             // 
             this.lblValorDaPizza.AutoSize = true;
-            this.lblValorDaPizza.Location = new System.Drawing.Point(709, 72);
+            this.lblValorDaPizza.Location = new System.Drawing.Point(397, 78);
             this.lblValorDaPizza.Name = "lblValorDaPizza";
             this.lblValorDaPizza.Size = new System.Drawing.Size(95, 13);
             this.lblValorDaPizza.TabIndex = 20;
@@ -153,7 +153,7 @@
             // lblTotal
             // 
             this.lblTotal.AutoSize = true;
-            this.lblTotal.Location = new System.Drawing.Point(1032, 64);
+            this.lblTotal.Location = new System.Drawing.Point(730, 78);
             this.lblTotal.Name = "lblTotal";
             this.lblTotal.Size = new System.Drawing.Size(92, 13);
             this.lblTotal.TabIndex = 21;
@@ -161,7 +161,7 @@
             // 
             // txtValorPizza
             // 
-            this.txtValorPizza.Location = new System.Drawing.Point(696, 94);
+            this.txtValorPizza.Location = new System.Drawing.Point(386, 100);
             this.txtValorPizza.Name = "txtValorPizza";
             this.txtValorPizza.Size = new System.Drawing.Size(121, 20);
             this.txtValorPizza.TabIndex = 23;
@@ -169,7 +169,7 @@
             // lblPesquisar
             // 
             this.lblPesquisar.AutoSize = true;
-            this.lblPesquisar.Location = new System.Drawing.Point(818, 302);
+            this.lblPesquisar.Location = new System.Drawing.Point(505, 252);
             this.lblPesquisar.Name = "lblPesquisar";
             this.lblPesquisar.Size = new System.Drawing.Size(69, 13);
             this.lblPesquisar.TabIndex = 25;
@@ -181,27 +181,27 @@
             this.groupBox1.Controls.Add(this.checkBox1);
             this.groupBox1.Controls.Add(this.checkBox3);
             this.groupBox1.Controls.Add(this.chkTitulo);
-            this.groupBox1.Location = new System.Drawing.Point(160, 189);
+            this.groupBox1.Location = new System.Drawing.Point(105, 147);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(200, 130);
+            this.groupBox1.Size = new System.Drawing.Size(147, 130);
             this.groupBox1.TabIndex = 26;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Escolha Opcionais";
             // 
             // btnSalvar
             // 
-            this.btnSalvar.Location = new System.Drawing.Point(509, 591);
+            this.btnSalvar.Location = new System.Drawing.Point(364, 523);
             this.btnSalvar.Name = "btnSalvar";
-            this.btnSalvar.Size = new System.Drawing.Size(84, 40);
+            this.btnSalvar.Size = new System.Drawing.Size(93, 40);
             this.btnSalvar.TabIndex = 27;
             this.btnSalvar.Text = "SALVAR";
             this.btnSalvar.UseVisualStyleBackColor = true;
             // 
             // btnCalcular
             // 
-            this.btnCalcular.Location = new System.Drawing.Point(733, 591);
+            this.btnCalcular.Location = new System.Drawing.Point(547, 523);
             this.btnCalcular.Name = "btnCalcular";
-            this.btnCalcular.Size = new System.Drawing.Size(84, 40);
+            this.btnCalcular.Size = new System.Drawing.Size(89, 40);
             this.btnCalcular.TabIndex = 28;
             this.btnCalcular.Text = "CALCULAR";
             this.btnCalcular.UseVisualStyleBackColor = true;
@@ -209,23 +209,23 @@
             // btnSair
             // 
             this.btnSair.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnSair.Location = new System.Drawing.Point(926, 591);
+            this.btnSair.Location = new System.Drawing.Point(703, 523);
             this.btnSair.Name = "btnSair";
-            this.btnSair.Size = new System.Drawing.Size(84, 40);
+            this.btnSair.Size = new System.Drawing.Size(96, 40);
             this.btnSair.TabIndex = 29;
             this.btnSair.Text = "SAIR";
             this.btnSair.UseVisualStyleBackColor = true;
             // 
             // txtValor
             // 
-            this.txtValor.Location = new System.Drawing.Point(870, 94);
+            this.txtValor.Location = new System.Drawing.Point(547, 100);
             this.txtValor.Name = "txtValor";
             this.txtValor.Size = new System.Drawing.Size(121, 20);
             this.txtValor.TabIndex = 30;
             // 
             // txtTotal
             // 
-            this.txtTotal.Location = new System.Drawing.Point(1018, 94);
+            this.txtTotal.Location = new System.Drawing.Point(715, 100);
             this.txtTotal.Name = "txtTotal";
             this.txtTotal.Size = new System.Drawing.Size(121, 20);
             this.txtTotal.TabIndex = 31;
@@ -234,7 +234,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1233, 660);
+            this.ClientSize = new System.Drawing.Size(959, 688);
             this.Controls.Add(this.txtTotal);
             this.Controls.Add(this.txtValor);
             this.Controls.Add(this.btnSair);
