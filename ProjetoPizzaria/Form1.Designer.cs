@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.txtTitulo = new System.Windows.Forms.TextBox();
+            this.txtPesquisar = new System.Windows.Forms.TextBox();
             this.chkTitulo = new System.Windows.Forms.CheckBox();
             this.dgvTitulo = new System.Windows.Forms.DataGridView();
             this.cnbTitulo = new System.Windows.Forms.ComboBox();
@@ -36,28 +36,28 @@
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.label5 = new System.Windows.Forms.Label();
+            this.lblValor = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.lblValorDaPizza = new System.Windows.Forms.Label();
+            this.lblTotal = new System.Windows.Forms.Label();
+            this.txtValorPizza = new System.Windows.Forms.TextBox();
             this.lblPesquisar = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btnSalvar = new System.Windows.Forms.Button();
             this.btnCalcular = new System.Windows.Forms.Button();
             this.btnSair = new System.Windows.Forms.Button();
+            this.txtValor = new System.Windows.Forms.TextBox();
+            this.txtTotal = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvTitulo)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // txtTitulo
+            // txtPesquisar
             // 
-            this.txtTitulo.Location = new System.Drawing.Point(926, 299);
-            this.txtTitulo.Name = "txtTitulo";
-            this.txtTitulo.Size = new System.Drawing.Size(100, 20);
-            this.txtTitulo.TabIndex = 1;
+            this.txtPesquisar.Location = new System.Drawing.Point(926, 299);
+            this.txtPesquisar.Name = "txtPesquisar";
+            this.txtPesquisar.Size = new System.Drawing.Size(100, 20);
+            this.txtPesquisar.TabIndex = 1;
             // 
             // chkTitulo
             // 
@@ -80,7 +80,7 @@
             // cnbTitulo
             // 
             this.cnbTitulo.FormattingEnabled = true;
-            this.cnbTitulo.Location = new System.Drawing.Point(239, 64);
+            this.cnbTitulo.Location = new System.Drawing.Point(214, 83);
             this.cnbTitulo.Name = "cnbTitulo";
             this.cnbTitulo.Size = new System.Drawing.Size(121, 21);
             this.cnbTitulo.TabIndex = 5;
@@ -125,60 +125,46 @@
             this.checkBox3.Text = "Catupiry Original";
             this.checkBox3.UseVisualStyleBackColor = true;
             // 
-            // label5
+            // lblValor
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(912, 39);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(33, 13);
-            this.label5.TabIndex = 17;
-            this.label5.Text = "Titulo";
+            this.lblValor.AutoSize = true;
+            this.lblValor.Location = new System.Drawing.Point(867, 67);
+            this.lblValor.Name = "lblValor";
+            this.lblValor.Size = new System.Drawing.Size(130, 13);
+            this.lblValor.TabIndex = 17;
+            this.lblValor.Text = "VALOR DOS OPCIONAIS";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(235, 21);
+            this.textBox1.Location = new System.Drawing.Point(225, 46);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 18;
             // 
-            // label7
+            // lblValorDaPizza
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(730, 39);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(33, 13);
-            this.label7.TabIndex = 20;
-            this.label7.Text = "Titulo";
+            this.lblValorDaPizza.AutoSize = true;
+            this.lblValorDaPizza.Location = new System.Drawing.Point(709, 72);
+            this.lblValorDaPizza.Name = "lblValorDaPizza";
+            this.lblValorDaPizza.Size = new System.Drawing.Size(95, 13);
+            this.lblValorDaPizza.TabIndex = 20;
+            this.lblValorDaPizza.Text = "VALOR DA PIZZA";
             // 
-            // label8
+            // lblTotal
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(1063, 39);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(33, 13);
-            this.label8.TabIndex = 21;
-            this.label8.Text = "Titulo";
+            this.lblTotal.AutoSize = true;
+            this.lblTotal.Location = new System.Drawing.Point(1032, 64);
+            this.lblTotal.Name = "lblTotal";
+            this.lblTotal.Size = new System.Drawing.Size(92, 13);
+            this.lblTotal.TabIndex = 21;
+            this.lblTotal.Text = "TOTAL A PAGAR";
             // 
-            // textBox2
+            // txtValorPizza
             // 
-            this.textBox2.Location = new System.Drawing.Point(882, 94);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 22;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(696, 94);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 23;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(1024, 94);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 24;
+            this.txtValorPizza.Location = new System.Drawing.Point(696, 94);
+            this.txtValorPizza.Name = "txtValorPizza";
+            this.txtValorPizza.Size = new System.Drawing.Size(121, 20);
+            this.txtValorPizza.TabIndex = 23;
             // 
             // lblPesquisar
             // 
@@ -230,27 +216,41 @@
             this.btnSair.Text = "SAIR";
             this.btnSair.UseVisualStyleBackColor = true;
             // 
+            // txtValor
+            // 
+            this.txtValor.Location = new System.Drawing.Point(870, 94);
+            this.txtValor.Name = "txtValor";
+            this.txtValor.Size = new System.Drawing.Size(121, 20);
+            this.txtValor.TabIndex = 30;
+            // 
+            // txtTotal
+            // 
+            this.txtTotal.Location = new System.Drawing.Point(1018, 94);
+            this.txtTotal.Name = "txtTotal";
+            this.txtTotal.Size = new System.Drawing.Size(121, 20);
+            this.txtTotal.TabIndex = 31;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1233, 660);
+            this.Controls.Add(this.txtTotal);
+            this.Controls.Add(this.txtValor);
             this.Controls.Add(this.btnSair);
             this.Controls.Add(this.btnCalcular);
             this.Controls.Add(this.btnSalvar);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.lblPesquisar);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
+            this.Controls.Add(this.txtValorPizza);
+            this.Controls.Add(this.lblTotal);
+            this.Controls.Add(this.lblValorDaPizza);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label5);
+            this.Controls.Add(this.lblValor);
             this.Controls.Add(this.btnNovo);
             this.Controls.Add(this.cnbTitulo);
             this.Controls.Add(this.dgvTitulo);
-            this.Controls.Add(this.txtTitulo);
+            this.Controls.Add(this.txtPesquisar);
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.dgvTitulo)).EndInit();
@@ -263,7 +263,7 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox txtTitulo;
+        private System.Windows.Forms.TextBox txtPesquisar;
         private System.Windows.Forms.CheckBox chkTitulo;
         private System.Windows.Forms.DataGridView dgvTitulo;
         private System.Windows.Forms.ComboBox cnbTitulo;
@@ -271,18 +271,18 @@
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label lblValor;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.Label lblValorDaPizza;
+        private System.Windows.Forms.Label lblTotal;
+        private System.Windows.Forms.TextBox txtValorPizza;
         private System.Windows.Forms.Label lblPesquisar;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button btnSalvar;
         private System.Windows.Forms.Button btnCalcular;
         private System.Windows.Forms.Button btnSair;
+        private System.Windows.Forms.TextBox txtValor;
+        private System.Windows.Forms.TextBox txtTotal;
     }
 }
 
