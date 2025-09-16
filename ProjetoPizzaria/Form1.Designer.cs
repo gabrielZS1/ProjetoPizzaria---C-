@@ -30,14 +30,14 @@
         {
             this.txtPesquisar = new System.Windows.Forms.TextBox();
             this.chkTitulo = new System.Windows.Forms.CheckBox();
-            this.dgvTitulo = new System.Windows.Forms.DataGridView();
-            this.cnbTitulo = new System.Windows.Forms.ComboBox();
+            this.dgvCardapio = new System.Windows.Forms.DataGridView();
+            this.cnbTamanhoPizza = new System.Windows.Forms.ComboBox();
             this.btnNovo = new System.Windows.Forms.Button();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.checkBox3 = new System.Windows.Forms.CheckBox();
             this.lblValor = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtTamanho = new System.Windows.Forms.TextBox();
             this.lblValorDaPizza = new System.Windows.Forms.Label();
             this.lblTotal = new System.Windows.Forms.Label();
             this.txtValorPizza = new System.Windows.Forms.TextBox();
@@ -48,7 +48,7 @@
             this.btnSair = new System.Windows.Forms.Button();
             this.txtValor = new System.Windows.Forms.TextBox();
             this.txtTotal = new System.Windows.Forms.TextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvTitulo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvCardapio)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -69,22 +69,22 @@
             this.chkTitulo.Text = "Tempero do Chef";
             this.chkTitulo.UseVisualStyleBackColor = true;
             // 
-            // dgvTitulo
+            // dgvCardapio
             // 
-            this.dgvTitulo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvTitulo.Location = new System.Drawing.Point(179, 370);
-            this.dgvTitulo.Name = "dgvTitulo";
-            this.dgvTitulo.Size = new System.Drawing.Size(945, 194);
-            this.dgvTitulo.TabIndex = 4;
+            this.dgvCardapio.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvCardapio.Location = new System.Drawing.Point(179, 370);
+            this.dgvCardapio.Name = "dgvCardapio";
+            this.dgvCardapio.Size = new System.Drawing.Size(945, 194);
+            this.dgvCardapio.TabIndex = 4;
             // 
-            // cnbTitulo
+            // cnbTamanhoPizza
             // 
-            this.cnbTitulo.FormattingEnabled = true;
-            this.cnbTitulo.Location = new System.Drawing.Point(214, 83);
-            this.cnbTitulo.Name = "cnbTitulo";
-            this.cnbTitulo.Size = new System.Drawing.Size(121, 21);
-            this.cnbTitulo.TabIndex = 5;
-            this.cnbTitulo.Text = "Escolha uma opção";
+            this.cnbTamanhoPizza.FormattingEnabled = true;
+            this.cnbTamanhoPizza.Location = new System.Drawing.Point(214, 83);
+            this.cnbTamanhoPizza.Name = "cnbTamanhoPizza";
+            this.cnbTamanhoPizza.Size = new System.Drawing.Size(132, 21);
+            this.cnbTamanhoPizza.TabIndex = 5;
+            this.cnbTamanhoPizza.Text = "TAMANHO DA PIZZA";
             // 
             // btnNovo
             // 
@@ -134,12 +134,12 @@
             this.lblValor.TabIndex = 17;
             this.lblValor.Text = "VALOR DOS OPCIONAIS";
             // 
-            // textBox1
+            // txtTamanho
             // 
-            this.textBox1.Location = new System.Drawing.Point(225, 46);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 18;
+            this.txtTamanho.Location = new System.Drawing.Point(228, 57);
+            this.txtTamanho.Name = "txtTamanho";
+            this.txtTamanho.Size = new System.Drawing.Size(100, 20);
+            this.txtTamanho.TabIndex = 18;
             // 
             // lblValorDaPizza
             // 
@@ -245,15 +245,15 @@
             this.Controls.Add(this.txtValorPizza);
             this.Controls.Add(this.lblTotal);
             this.Controls.Add(this.lblValorDaPizza);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtTamanho);
             this.Controls.Add(this.lblValor);
             this.Controls.Add(this.btnNovo);
-            this.Controls.Add(this.cnbTitulo);
-            this.Controls.Add(this.dgvTitulo);
+            this.Controls.Add(this.cnbTamanhoPizza);
+            this.Controls.Add(this.dgvCardapio);
             this.Controls.Add(this.txtPesquisar);
             this.Name = "Form1";
             this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.dgvTitulo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvCardapio)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
@@ -265,14 +265,14 @@
 
         private System.Windows.Forms.TextBox txtPesquisar;
         private System.Windows.Forms.CheckBox chkTitulo;
-        private System.Windows.Forms.DataGridView dgvTitulo;
-        private System.Windows.Forms.ComboBox cnbTitulo;
+        private System.Windows.Forms.DataGridView dgvCardapio;
+        private System.Windows.Forms.ComboBox cnbTamanhoPizza;
         private System.Windows.Forms.Button btnNovo;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.CheckBox checkBox3;
         private System.Windows.Forms.Label lblValor;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtTamanho;
         private System.Windows.Forms.Label lblValorDaPizza;
         private System.Windows.Forms.Label lblTotal;
         private System.Windows.Forms.TextBox txtValorPizza;
